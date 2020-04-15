@@ -8,7 +8,7 @@ A jupyter notebook is a web-based interactive computational environment for crea
 
 If you are from ETH, you likely have an expensive MacBook pro; therefore, make sure you have Xcode installed (from App Store). 
 
-Installying *jupyter* to your computer is not difficult, you just need to run basic commands in the terminal of your laptop. *Datacamp* has a [nice tutorial](https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook) on some of the basics regarding Jupyter notebooks. But, in short, you need to run the following commands in the Terminal:
+Installying *jupyter* to your computer is not difficult, you just need to run basic commands in the terminal of your laptop. *Datacamp* has a [nice tutorial](https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook) on some of the basics regarding Jupyter notebooks. But, in short, you need to run the following commands in the [Terminal](https://raw.githubusercontent.com/bernibra/jupyter-lab-meeting/master/gifs/terminal.gif):
 
 
 
