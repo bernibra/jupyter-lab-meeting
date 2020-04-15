@@ -36,18 +36,25 @@ Once you've created a Github account and installed Git in your laptop, you can c
   <img src="photos/create-repo.png" width="350">
   Step 2
 </kbd>](https://raw.githubusercontent.com/bernibra/jupyter-lab-meeting/master/photos/create-repo.png)
-<kbd>
-  [<img src="photos/clone-repo.png" width="350">](https://raw.githubusercontent.com/bernibra/jupyter-lab-meeting/master/photos/clone-repo.png)
+[<kbd>
+  <img src="photos/clone-repo.png" width="350">
   Step 3
-</kbd>
-<kbd>
+</kbd>](https://raw.githubusercontent.com/bernibra/jupyter-lab-meeting/master/photos/clone-repo.png)
+[<kbd>
   <img src="photos/clone-terminal.png" width="350">
   Step 4
-</kbd>
+</kbd>](https://raw.githubusercontent.com/bernibra/jupyter-lab-meeting/master/photos/clone-terminal.png)
 
 ## Initializing a notebook in the new repository: add, commit, push and repeat.
 
-Now you have an online repository that
+Now you have an online repository where you can build your jupyter notebook. To do so, access your repository using the terminal (*cd ~/path/to/directory/*) and open a jupyter notebook as shown above.
+
+The problem now is that any changes that you make to your notebook will only be stored locally. To push them to your online repository, you can use the basic *git* commands to add, commit and push the changes. For example, if you have created a notebook named "index.ipynb", you can add the changes to your online repository using the following command lines in the terminal:
+```
+git add index.ipynb
+git commit -m "adding first file to repository"
+git push
+```
 
 ## Build jupyter notebooks in a virtual environment using Binder.
 
