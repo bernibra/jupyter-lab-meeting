@@ -29,7 +29,7 @@ First, you will need a [Github account](https://github.com/), which is a company
 Once you've created a Github account and installed Git in your laptop, you can create a [new public repository](https://help.github.com/en/github/getting-started-with-github/create-a-repo) and [clone it](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) to your computer. If you are very uncomfortable using the terminal, you could consider using the [Github Desktop](https://desktop.github.com/).
 
 <kbd>
-  <img src="photos/new-repo.png" width="200">
+  <img src="photos/new-repo2.pdf" width="200">
 </kbd>
 <kbd>
   <img src="photos/create-repo.png" width="200">
