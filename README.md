@@ -15,8 +15,9 @@ Once you have *Python* and *Jupyter* in your computer, you just need to run an a
 conda install -c r r-essentials
 ```
 
-Starting a Jupyter notebook is as easy as opening a terminal and typing "jupyter notebook"
-![](gifs/terminal.gif)
+Starting a Jupyter notebook is as easy as opening a terminal and typing "jupyter notebook":
+
+![](gifs/jupyter.gif)
 
 *Datacamp* has a [nice tutorial](https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook) on some of the basics regarding Jupyter notebooks. Also, if you are not keen on using the command line, you could consider installing the [graphical installer](https://docs.anaconda.com/anaconda/install/mac-os/) of Anaconda, and [get jupyter](https://docs.anaconda.com/anaconda/navigator/tutorials/r-lang/) via their user friendly interface
 
