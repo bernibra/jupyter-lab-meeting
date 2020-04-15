@@ -22,7 +22,7 @@ Starting a Jupyter notebook is as easy as opening a terminal and typing "jupyter
 *Datacamp* has a [nice tutorial](https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook) on some of the basics regarding Jupyter notebooks. Also, if you are not keen on using the command line, you could consider installing the [graphical installer](https://docs.anaconda.com/anaconda/install/mac-os/) of Anaconda, and [get jupyter](https://docs.anaconda.com/anaconda/navigator/tutorials/r-lang/) via their user friendly interface
 
 ## Create a Github repository for your lecture
-While playing around with *Jupyter notebooks* is easy peasy, being able to use these for lectures requires a bit more work. The reason is that jupyter notebooks come with a bunch of dependencies, from the R or Python versions that you use to the different libraries that are required by your code. One solution would be to use [Docker](https://www.docker.com/), an amazing software that helps you stop worrying about your dependencies when sharing code. For the sake of simplicity, however, we will build lectures using Github and Binder that simplify the creation of virtual environments.
+While playing around with *Jupyter notebooks* is easy peasy, being able to use these for lectures requires a bit more work. The reason is that jupyter notebooks come with a bunch of dependencies, from the *R* or *Python* versions that you use to the different libraries that are required by your code. One solution would be to use [Docker](https://www.docker.com/), an amazing software that helps you stop worrying about your dependencies when sharing code. For the sake of simplicity, however, we will build lectures using *Github* and *Binder* that simplify the creation of virtual environments.
 
 First, you will need a [Github account](https://github.com/), which is a company that provides free hosting for software development version control using Git. In order to manage Github repositories, you will also need to have Git installed in your computer (version control software that can be [easily installed](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) if you don't have it already).
 
@@ -47,7 +47,7 @@ Once you've created a Github account and installed Git in your laptop, you can c
 
 ## Initializing a notebook in the new repository: add, commit, push and repeat.
 
-Now you have an online repository where you can build your jupyter notebook. To do so, access your repository using the terminal (*cd ~/path/to/directory/*) and open a jupyter notebook as shown above.
+Now you have an online repository where you can build your *Jupyter notebook*. To do so, access your repository using the terminal (~~cd ~/path/to/directory/~~) and open a *Jupyter notebook* as shown above.
 
 The problem now is that any changes that you make to your notebook will only be stored locally. To push them to your online repository, you can use the basic *git* commands to add, commit and push the changes. For example, if you have created a notebook named "index.ipynb", you can add the changes to your online repository using the following command lines in the terminal:
 ```
@@ -57,5 +57,10 @@ git push
 ```
 
 ## Build jupyter notebooks in a virtual environment using Binder.
+Although you now have your notebook online, this is not going to work as such. For it to work, students would have to download it and try to run it in their own computer. The problem is that they would have to have all the software that you are using in their own computers as well (*Python, R, Jupyter Notebooks, libraries,...*). This is obviously not optimal if you are giving a lecture and want things to work quickly.
+
+This is where *Binder* (and *Docker*) work beautifully with *Github*. *Binder* will create a virtual environment and generate a link to access it. In this environment, students will be running the same R version, libraries and dependencies that you want.
+
+To make *Binder* work, you need to add a few files in your repository that specify your dependencies.
 
 ## Add jupyter extensions and interactive tools.
