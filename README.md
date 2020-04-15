@@ -28,20 +28,21 @@ First, you will need a [Github account](https://github.com/), which is a company
 
 Once you've created a Github account and installed Git in your laptop, you can create a [new public repository](https://help.github.com/en/github/getting-started-with-github/create-a-repo) and [clone it](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) to your computer. If you are very uncomfortable using the terminal, you could consider using the [Github Desktop](https://desktop.github.com/).
 
-<figure class="image">
 <kbd>
-  <img src="photos/new-repo.png" width="200">
-</kbd>
-<figcaption>{{ include.description }}</figcaption>
-</figure>
-<kbd>
-  <img src="photos/create-repo.png" width="200">
+  <img src="photos/new-repo.png" width="300">
+  A
 </kbd>
 <kbd>
-  <img src="photos/clone-repo.png" width="200">
+  <img src="photos/create-repo.png" width="300">
+  B
 </kbd>
 <kbd>
-  <img src="photos/clone-terminal.png" width="200">
+  <img src="photos/clone-repo.png" width="300">
+  C
+</kbd>
+<kbd>
+  <img src="photos/clone-terminal.png" width="300">
+  D
 </kbd>
 
 ## Initializing a notebook in the new repository: add, commit, push and repeat.
