@@ -6,11 +6,19 @@ A jupyter notebook is a web-based interactive computational environment for crea
 
 ## Install Jupyter and explore how to make a notebook
 
+If you are from ETH, you likely have an expensive MacBook pro; therefore, make sure you have Xcode installed (from App Store). 
+
+Installying *jupyter* to your computer is not difficult, you just need to run basic commands in the terminal of your laptop. *Datacamp* has a [nice tutorial](https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook) on some of the basics regarding Jupyter notebooks. But, in short, you need to run the following commands in the Terminal:
+
+
+
+If you are not keen on using the command line, you could consider installing the [graphical installer](https://docs.anaconda.com/anaconda/install/mac-os/) of Anaconda, and [get jupyter](https://docs.anaconda.com/anaconda/navigator/tutorials/r-lang/) via their user friendly interface
+
 ## Create a Github repository for your lecture
 
-You will first need a [Github account](https://github.com/), which is a company that provides free hosting for software development version control using Git. In order to manage Github repositories, you will also need to have Git installed in your computer (version control software that can be [easily installed](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)). If you are from ETH, you likely have an expensive MacBook pro; therefore, make sure you have Xcode installed (from App Store).
+You will need a [Github account](https://github.com/), which is a company that provides free hosting for software development version control using Git. In order to manage Github repositories, you will also need to have Git installed in your computer (version control software that can be [easily installed](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)).
 
-Once you've created a Github account and installed Git in your laptop, you can create a [new public repository](https://help.github.com/en/github/getting-started-with-github/create-a-repo) and [clone it](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) in your computer. If you are very uncomfortable using the terminal, you could consider using the [Github Desktop](https://desktop.github.com/).
+Once you've created a Github account and installed Git in your laptop, you can create a [new public repository](https://help.github.com/en/github/getting-started-with-github/create-a-repo) and [clone it](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) to your computer. If you are very uncomfortable using the terminal, you could consider using the [Github Desktop](https://desktop.github.com/).
 
 ## Initializing a notebook in the new repository: add, commit, push and repeat.
 
@@ -18,3 +26,4 @@ Now you have an online repository that
 
 ## Build jupyter notebooks in a virtual environment using Binder.
 
+## Add jupyter extensions and interactive tools.
