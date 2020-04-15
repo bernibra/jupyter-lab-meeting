@@ -4,7 +4,7 @@ This is a short tutorial on how to use and create jupyter notebooks for the ETHZ
 
 A jupyter notebook is a web-based interactive computational environment for creating documents that combine text and code that can be run. In order to develop a jupyter notebook for a lecture, we will need basic knowledge of [Git+Github](https://guides.github.com/activities/hello-world/) and [basic shell commands](https://www-xray.ast.cam.ac.uk/~jss/lecture/computing/notes/out/commands_basic/). If you are from ETH, you likely have an expensive MacBook pro; therefore, make sure you also have Xcode installed (from App Store).
 
-## Install Jupyter and explore how to make a notebook
+## [Install Jupyter and explore how to make a notebook](http://www.bernatbramon.com)
 While *Jupyter* can be run in many programming languages (including *R*), *Python* is a requirement and you will need to have it in your computer to be able to develop notebooks. If you have *Python* in your computer already, congratulations, *Python* is one of the [most used](http://pypl.github.io/PYPL.html) programming languages in the world and might get you a job if the 'science thing' doesn't work out. Otherwise, you can use [Anaconda](https://www.anaconda.com/distribution/) to install *Python* and *Jupyter*. If you've got Anaconda already, open a [Terminal](https://raw.githubusercontent.com/bernibra/jupyter-lab-meeting/master/gifs/terminal.gif) and run the following:
 > conda install -c conda-forge jupyterlab
 
