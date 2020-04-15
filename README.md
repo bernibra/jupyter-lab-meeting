@@ -1,18 +1,17 @@
 # jupyter-lab-meeting
 
-This is a short tutorial on how to use and create a jupyter notebooks for the ETHZ Plant Ecology group. The making of this tutorial was inspired by the notebooks developed for the module for the Quantitive Approaches to Plant Ecology and Community Ecology during the COVID-19 outbreak. For example, in [this notebook](https://mybinder.org/v2/gh/bernibra/Quantitative-Approaches-practical/master?filepath=index.ipynb), we reproduced the results of [Watts and Strogatz (1998)](https://www.nature.com/articles/30918) on the small-world features presented by several real networked systems.
+This is a short tutorial on how to use and create jupyter notebooks for the ETHZ Plant Ecology group. The making of this tutorial was motivated by the notebooks developed for the module for the Quantitive Approaches to Plant Ecology and Community Ecology during the COVID-19 outbreak. For example, in [this notebook](https://mybinder.org/v2/gh/bernibra/Quantitative-Approaches-practical/master?filepath=index.ipynb), we reproduced the results of [Watts and Strogatz (1998)](https://www.nature.com/articles/30918) on the small-world features presented by several real networked systems.
 
-A jupyter notebook is a web-based interactive computational environment for creating documents that combine text and code that can be run. In order to develop a jupyter notebook for a lecture, we will need basic knowledge of [Git+Github](https://guides.github.com/activities/hello-world/) and [basic shell commands](https://www-xray.ast.cam.ac.uk/~jss/lecture/computing/notes/out/commands_basic/).
+A jupyter notebook is a web-based interactive computational environment for creating documents that combine text and code that can be run. In order to develop a jupyter notebook for a lecture, we will need basic knowledge of [Git+Github](https://guides.github.com/activities/hello-world/) and [basic shell commands](https://www-xray.ast.cam.ac.uk/~jss/lecture/computing/notes/out/commands_basic/). If you are from ETH, you likely have an expensive MacBook pro; therefore, make sure you also have Xcode installed (from App Store).
 
 ## Install Jupyter and explore how to make a notebook
+While *Jupyter* can be run in many programming languages (including *R*), *Python* is a requirement and you will need to have it in your computer to be able to develop notebooks. If you have *Python* in your computer already, congratulations, *Python* is one of the [most used](http://pypl.github.io/PYPL.html) programming languages in the world and might get you a job if the 'science thing' doesn't work out. Otherwise, you can use [Anaconda](https://www.anaconda.com/distribution/) to install *Python* and *Jupyter*. If you've got Anaconda already, open a [Terminal](https://raw.githubusercontent.com/bernibra/jupyter-lab-meeting/master/gifs/terminal.gif) and run the following:
+> conda install -c conda-forge jupyterlab
 
-If you are from ETH, you likely have an expensive MacBook pro; therefore, make sure you have Xcode installed (from App Store). 
+Once you have *Python* and *Jupyter* in your computer, you just need to run an additional commands in the terminal to be able to run R code in your notebooks:
+> conda install -c r r-essentials
 
-Installying *jupyter* to your computer is not difficult, you just need to run basic commands in the terminal of your laptop. *Datacamp* has a [nice tutorial](https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook) on some of the basics regarding Jupyter notebooks. But, in short, you need to run the following commands in the [Terminal](https://raw.githubusercontent.com/bernibra/jupyter-lab-meeting/master/gifs/terminal.gif):
-
-
-
-If you are not keen on using the command line, you could consider installing the [graphical installer](https://docs.anaconda.com/anaconda/install/mac-os/) of Anaconda, and [get jupyter](https://docs.anaconda.com/anaconda/navigator/tutorials/r-lang/) via their user friendly interface
+*Datacamp* has a [nice tutorial](https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook) on some of the basics regarding Jupyter notebooks. Also, if you are not keen on using the command line, you could consider installing the [graphical installer](https://docs.anaconda.com/anaconda/install/mac-os/) of Anaconda, and [get jupyter](https://docs.anaconda.com/anaconda/navigator/tutorials/r-lang/) via their user friendly interface
 
 ## Create a Github repository for your lecture
 
