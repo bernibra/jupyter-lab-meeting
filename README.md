@@ -31,6 +31,15 @@ Once you've created a Github account and installed Git in your laptop, you can c
 <kbd>
   <img src="photos/new-repo.png" width="200">
 </kbd>
+<kbd>
+  <img src="photos/create-repo.png" width="200">
+</kbd>
+<kbd>
+  <img src="photos/clone-repo.png" width="200">
+</kbd>
+<kbd>
+  <img src="photos/clone-terminal.png" width="200">
+</kbd>
 
 ## Initializing a notebook in the new repository: add, commit, push and repeat.
 
