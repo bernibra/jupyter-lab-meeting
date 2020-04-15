@@ -57,10 +57,11 @@ git push
 ```
 
 ## Build jupyter notebooks in a virtual environment using Binder.
-Although you now have your notebook online, this is not going to work as such. For it to work, students would have to download it and try to run it in their own computer. The problem is that they would have to have all the software that you are using in their own computers as well (*Python, R, Jupyter Notebooks, libraries,...*). This is obviously not optimal if you are giving a lecture and want things to work quickly.
+Although you now have your notebook online, this is not going to work as such. For it to work, students would have to download it and try to run it in their own computer. The problem is that they would have to have all the software that you are using in their own computers as well (*Python, R, Jupyter Notebooks, libraries,...*). This is obviously not optimal if you are giving a lecture and want things working quickly.
 
 This is where *Binder* (and *Docker*) work beautifully with *Github*. *Binder* will create a virtual environment and generate a link to access it. In this environment, students will be running the same R version, libraries and dependencies that you want.
 
-To make *Binder* work, you need to add a few files in your repository that specify your dependencies.
+To make *Binder* work, you need to add [a few files](https://github.com/binder-examples/r) in your repository that specify your dependencies. For example, you will need a file called `runtime.txt`, where you tell *Binder* when you created the notebook so that it can use the R version or the versions of the different libraries that you had at that moment. Likewise, you can specify the *R* libraries that you are using in a file called `install.R`. 
 
 ## Add jupyter extensions and interactive tools.
+There are several additional features that you can incorporate to your *Jupyter notebooks*, from [additional extensions](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/install.html#) to [interactive surveys](https://www.kobotoolbox.org/).
