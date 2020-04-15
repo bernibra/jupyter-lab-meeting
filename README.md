@@ -47,7 +47,7 @@ Once you've created a Github account and installed Git in your laptop, you can c
 
 ## Initializing a notebook in the new repository: add, commit, push and repeat.
 
-Now you have an online repository where you can build your *Jupyter notebook*. To do so, access your repository using the terminal (~~cd ~/path/to/directory/~~) and open a *Jupyter notebook* as shown above.
+Now you have an online repository where you can build your *Jupyter notebook*. To do so, access your repository using the terminal (`cd ~/path/to/directory/`) and open a *Jupyter notebook* as shown above.
 
 The problem now is that any changes that you make to your notebook will only be stored locally. To push them to your online repository, you can use the basic *git* commands to add, commit and push the changes. For example, if you have created a notebook named "index.ipynb", you can add the changes to your online repository using the following command lines in the terminal:
 ```
