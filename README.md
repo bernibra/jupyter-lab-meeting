@@ -28,16 +28,16 @@ First, you will need a [Github account](https://github.com/), which is a company
 
 Once you've created a Github account and installed Git in your laptop, you can create a [new public repository](https://help.github.com/en/github/getting-started-with-github/create-a-repo) and [clone it](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) to your computer. If you are very uncomfortable using the terminal, you could consider using the [Github Desktop](https://desktop.github.com/).
 
-<kbd>
+[<kbd>
   <img src="photos/new-repo.png" width="350">
   Step 1
-</kbd>
-<kbd>
+</kbd>](https://raw.githubusercontent.com/bernibra/jupyter-lab-meeting/master/photos/new-repo.png)
+[<kbd>
   <img src="photos/create-repo.png" width="350">
   Step 2
-</kbd>
+</kbd>](https://raw.githubusercontent.com/bernibra/jupyter-lab-meeting/master/photos/create-repo.png)
 <kbd>
-  <img src="photos/clone-repo.png" width="350">
+  [<img src="photos/clone-repo.png" width="350">](https://raw.githubusercontent.com/bernibra/jupyter-lab-meeting/master/photos/clone-repo.png)
   Step 3
 </kbd>
 <kbd>
