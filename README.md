@@ -10,10 +10,13 @@ While *Jupyter* can be run in many programming languages (including *R*), *Pytho
 conda install -c conda-forge jupyterlab
 ```
 
-Once you have *Python* and *Jupyter* in your computer, you just need to run an additional command in the terminal to be able to run R code in your notebooks:
+Once you have *Python* and *Jupyter* in your computer, you just need to run an additional command in the terminal to be able to use R code in your notebooks:
 ```
 conda install -c r r-essentials
 ```
+
+Starting a Jupyter notebook is as easy as opening a terminal and typing "jupyter notebook"
+![](gifs/terminal.gif)
 
 *Datacamp* has a [nice tutorial](https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook) on some of the basics regarding Jupyter notebooks. Also, if you are not keen on using the command line, you could consider installing the [graphical installer](https://docs.anaconda.com/anaconda/install/mac-os/) of Anaconda, and [get jupyter](https://docs.anaconda.com/anaconda/navigator/tutorials/r-lang/) via their user friendly interface
 
