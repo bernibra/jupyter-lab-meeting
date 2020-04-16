@@ -65,7 +65,7 @@ Although you now have your notebook online, this is not going to work as such. F
 
 This is where *Binder* (and *Docker*) works beautifully with *Github*. *Binder* will create a virtual environment and generate a link to access it. In this environment, students will be running the same R version, libraries and dependencies that you want.
 
-To make *Binder* work, you need to add [a few files](https://github.com/binder-examples/r) in your repository that specify your dependencies. For example, you will need a file called `runtime.txt`, where you tell *Binder* when you created the notebook so that it can use the R version or the versions of the different libraries that you had at that moment you created your notebook. Likewise, you can specify the *R* libraries that you are using in a file called `install.R`. 
+To make [*Binder*](https://mybinder.org/) work, you need to add [a few files](https://github.com/binder-examples/r) in your repository that specify your dependencies. For example, you will need a file called `runtime.txt`, where you tell *Binder* when you created the notebook so that it can use the R version or the versions of the different libraries that you had at that moment you created your notebook. Likewise, you can specify the *R* libraries that you are using in a file called `install.R`. 
 
 ## Add jupyter extensions and interactive tools.
 There are several additional features that you can incorporate into your *Jupyter notebooks*, from [additional extensions](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/install.html#) to [interactive surveys](https://www.kobotoolbox.org/).
