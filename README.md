@@ -2,7 +2,7 @@
 
 # jupyter-lab-meeting
 
-This is a short tutorial on how to use and create *Jupyter notebooks* for the ETHZ Plant Ecology group. The making of this tutorial was motivated by the notebooks developed for master's course "Quantitative Approaches to Plant Ecology and Community Ecology" during the COVID-19 outbreak. For example, in [this notebook](https://mybinder.org/v2/gh/bernibra/Quantitative-Approaches-practical/master?filepath=index.ipynb), we reproduced the work of [Watts and Strogatz (1998)](https://www.nature.com/articles/30918), studying the small-world features presented by many real networked systems.
+This is a short tutorial on how to use and create *Jupyter notebooks* for the ETHZ Plant Ecology group (<a href="https://github.com/bernibra/jupyter-lab-meeting/raw/master/presentation/jupyter-presentation.pdf" download>link to presentation slides</a>). The making of this tutorial was motivated by the notebooks developed for master's course "Quantitative Approaches to Plant Ecology and Community Ecology" during the COVID-19 outbreak. For example, in [this notebook](https://mybinder.org/v2/gh/bernibra/Quantitative-Approaches-practical/master?filepath=index.ipynb), we reproduced the work of [Watts and Strogatz (1998)](https://www.nature.com/articles/30918), studying the small-world features presented by many real networked systems.
 
 A *Jupyter notebook* is a web-based interactive computational environment for creating documents that combine text and executable code. In order to develop a jupyter notebook for a lecture, we will need basic knowledge of [Git+Github](https://guides.github.com/activities/hello-world/) and [basic shell commands](https://www-xray.ast.cam.ac.uk/~jss/lecture/computing/notes/out/commands_basic/). 
 
