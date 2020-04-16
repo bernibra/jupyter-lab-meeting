@@ -61,7 +61,7 @@ git push
 ## Build jupyter notebooks in a virtual environment using Binder.
 Although you now have your notebook online, this is not going to work as such. For it to work, students would have to download it and try to run it in their own computer. The problem is that they would need to have all the software that you are using in your computer also installed their own computers (*Python, R, Jupyter Notebooks, libraries,...*). This is obviously not optimal if you are giving a lecture and want things working quickly.
 
-This is where *Binder* (and *Docker*) works beautifully with *Github*. *Binder* will create a virtual environment and generate a link to access it. In this environment, students will be running the same R version, libraries and dependencies that you want.
+This is where [*Binder*](https://mybinder.org/) (and *Docker*) works beautifully with *Github*. *Binder* will create a virtual environment and generate a link to access it. In this environment, students will be running the same R version, libraries and dependencies that you want. To create a virtual environment, you can just paste the url of your *Github* repository to [*Binder*](https://mybinder.org/) and create the link to your notebook.
 
 To make [*Binder*](https://mybinder.org/) work, you need to add [a few files](https://github.com/binder-examples/r) in your repository that specify your dependencies. For example, you will need a file called `runtime.txt`, where you tell *Binder* when you created the notebook so that it can use the R version or the versions of the different libraries that you had at that moment you created your notebook. Likewise, you can specify the *R* libraries that you are using in a file called `install.R`. 
 
