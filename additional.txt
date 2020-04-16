@@ -1,0 +1,5 @@
+library(httr)
+rawdata<-httr::GET("https://kc.kobotoolbox.org/api/v1/data/429282")
+form_metadata <- httr::content(rawdata)
+dat <- data.frame(x=sapply(form_metadata, function(x) as.factor(x$How_useful_was_this)))
+barplot(prop.table(table(dat$x)))
